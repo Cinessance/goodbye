@@ -1,0 +1,20 @@
+/** Custom CSS Classes*/
+
+body > header {
+  background-image: url("background.jpg");
+  /* background-size: 100% 100%; */
+  background-size: cover;
+}
+
+.notice {
+  background: var(--accent-bg);
+  border: 2px solid var(--border);
+  border-radius: 5px;
+  padding: 1.5rem;
+  margin: 2rem 0;
+}
+
+.logo-image {
+  margin-top: 30px;
+  width: 100px;
+}
